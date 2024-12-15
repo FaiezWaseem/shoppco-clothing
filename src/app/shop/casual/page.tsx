@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, Search, ShoppingCart, User, ChevronDown, Filter, X } from 'lucide-react'
+import { Filter, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -11,7 +11,6 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
 } from "@/components/ui/sheet"
 import {
   Select,

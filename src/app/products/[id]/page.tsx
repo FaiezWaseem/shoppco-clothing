@@ -79,7 +79,7 @@ export default function ProductDetail({ params }: { params: { id: string } }) {
     <div className="min-h-screen">
       {/* Top Banner */}
       <div className="bg-black text-white text-center text-sm py-2">
-        Sign up and get 20% off to your first order. <Link href="#" className="underline">Sign Up Now</Link>
+       {" Sign up and get 20% off to your first order."} <Link href="#" className="underline">Sign Up Now</Link>
       </div>
 
       {/* Navigation */}
@@ -354,31 +354,31 @@ export default function ProductDetail({ params }: { params: { id: string } }) {
               <AccordionItem value="item-1">
                 <AccordionTrigger>What sizes are available?</AccordionTrigger>
                 <AccordionContent>
-                  Our ONE LIFE GRAPHIC T-SHIRT is available in sizes Small, Medium, Large, and X-Large. Please refer to our size guide for detailed measurements to ensure the perfect fit.
+                {"  Our ONE LIFE GRAPHIC T-SHIRT is available in sizes Small, Medium, Large, and X-Large. Please refer to our size guide for detailed measurements to ensure the perfect fit."}
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
                 <AccordionTrigger>How do I care for my t-shirt?</AccordionTrigger>
                 <AccordionContent>
-                  To keep your t-shirt looking its best, machine wash cold with like colors, do not bleach, tumble dry low, and warm iron if needed. Avoid dry cleaning to maintain the print quality.
+                 {" To keep your t-shirt looking its best, machine wash cold with like colors, do not bleach, tumble dry low, and warm iron if needed. Avoid dry cleaning to maintain the print quality."}
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger>Is this t-shirt true to size?</AccordionTrigger>
                 <AccordionContent>
-                  Yes, our ONE LIFE GRAPHIC T-SHIRT is designed to be true to size. However, if you're between sizes or prefer a looser fit, we recommend sizing up.
+               {"   Yes, our ONE LIFE GRAPHIC T-SHIRT is designed to be true to size. However, if you're between sizes or prefer a looser fit, we recommend sizing up."}
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger>How long will shipping take?</AccordionTrigger>
                 <AccordionContent>
-                  Shipping times vary depending on your location. Typically, domestic orders are delivered within 3-5 business days, while international orders may take 7-14 business days. You'll receive a tracking number once your order ships.
+                {"  Shipping times vary depending on your location. Typically, domestic orders are delivered within 3-5 business days, while international orders may take 7-14 business days. You'll receive a tracking number once your order ships."}
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
                 <AccordionTrigger>What is your return policy?</AccordionTrigger>
                 <AccordionContent>
-                  We offer a 30-day return policy for unworn, unwashed items in their original condition with tags attached. Please visit our Returns page for more information on how to initiate a return.
+                 {" We offer a 30-day return policy for unworn, unwashed items in their original condition with tags attached. Please visit our Returns page for more information on how to initiate a return."}
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

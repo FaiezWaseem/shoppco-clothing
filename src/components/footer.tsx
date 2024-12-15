@@ -8,9 +8,9 @@ export default function Footer() {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
         <div className="md:col-span-2">
-          <Link href="/" className="text-2xl font-bold">SHOP.CO</Link>
+          <Link href="/" className="text-2xl font-bold">{"SHOP.CO"}</Link>
           <p className="mt-4 text-gray-600">
-            We have clothes that suits your style and which you're proud to wear. From women to men.
+           {" We have clothes that suits your style and which you're proud to wear. From women to men."}
           </p>
           <div className="flex gap-4 mt-4">
             <Link href="#" className="text-gray-600 hover:text-black">
@@ -58,7 +58,7 @@ export default function Footer() {
       <div className="mt-12 pt-8 border-t">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-gray-600">
-            Shop.co © 2000-2023, All Rights Reserved
+           {" Shop.co © 2000-2024, All Rights Reserved"}
           </div>
           <div className="flex gap-4">
           <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Badge-tksRHaaY4Mz7ERioBtxA4g8YZZm8pP.png" alt="Visa" width={48} height={32} />

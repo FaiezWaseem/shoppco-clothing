@@ -1,20 +1,13 @@
 
 "use client"
 
-import Image from "next/image"
+
 import Link from "next/link"
 import { useState } from "react"
-import { Star, ChevronLeft, ChevronRight, ShoppingCart, User, Twitter, Facebook, Instagram, Github, Menu, Search, X } from 'lucide-react'
+import { ShoppingCart, User,Menu, Search } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { cn } from "@/lib/utils"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+
 import {
   Sheet,
   SheetContent,
